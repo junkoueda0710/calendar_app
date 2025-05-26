@@ -1,0 +1,113 @@
+.calendar { 
+
+ 
+
+    border-collapse: collapse; 
+
+    width: 100%; 
+
+} 
+
+ 
+
+.calendar th, .calendar td { 
+
+    border: 1px solid #ccc; 
+
+    text-align: center; 
+
+    vertical-align: top; 
+
+    width: 14.2%; 
+
+    height: 80px; 
+
+    padding: 5px; 
+
+} 
+
+ 
+
+.sunday { 
+
+    background-color: #f99; 
+
+    color: white; 
+
+} 
+
+ 
+
+.saturday { 
+
+    background-color: #99f; 
+
+    color: white; 
+
+} 
+
+ 
+
+.holiday { 
+
+    background-color: #f66; 
+
+    color: white; 
+
+} 
+
+ 
+
+.weekday { 
+
+    background-color: #fff; 
+
+    color: black; 
+
+} 
+
+ 
+
+.event { 
+
+    font-size: 12px; 
+
+    margin-top: 5px; 
+
+    padding: 2px; 
+
+    border-radius: 4px; 
+
+} 
+
+ 
+
+.category1 { background-color: #ffd700; } 
+
+.category2 { background-color: #90ee90; } 
+
+.category3 { background-color: #87cefa; } 
+
+.category4 { background-color: #ffb6c1; } 
+
+.category5 { background-color: #dda0dd; } 
+
+ 
+
+/* 祝日の名前 */ 
+
+.holiday-name { 
+
+    font-size: 10px; 
+
+    color: white; 
+
+    background-color: rgba(255, 100, 100, 0.8); 
+
+    border-radius: 3px; 
+
+    padding: 2px 4px; 
+
+    margin-top: 4px; 
+
+} 
